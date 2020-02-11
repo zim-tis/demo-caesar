@@ -7,12 +7,12 @@ void gen_test(char *str, int str_len, int shift)
     char *res1, *res2;
 
     printf("Encrypt text '%s'\n", str);
-    res1 = caesar_encrypt(str, int str_len, shift);
+    res1 = caesar_encrypt(str, str_len, shift);
     if (!res1) return;
     printf("Result:       %s\n", res1);
 
     printf("Decrypt text '%s'\n", res1);
-    res2 = caesar_decrypt(res1, int str_len, shift);
+    res2 = caesar_decrypt(res1, str_len, shift);
     if (!res2) return;
     printf("Result:       %s\n", res2);
 
