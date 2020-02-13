@@ -28,7 +28,7 @@ int main(void)
     int str_len = sizeof orig_str;
 
     printf("Test 1: Shift with a negative input\n");
-    gen_test(orig_str, str_len, 51800012);
+    gen_test(orig_str, str_len, 82533241);
     printf("\nTest 2: Shift with a positive input\n");
     gen_test(orig_str, str_len, 7);
 
